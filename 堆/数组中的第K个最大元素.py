@@ -9,7 +9,8 @@ def findKthLargest(k, nums):
     return nums[0]
 
 if __name__ == "__main__":
-    input = [3,2,1,5,6,4]
+    input = list(map(int, input().split()))
     k = 2
+    print(input)
     output = findKthLargest(k, input)
     print(output)

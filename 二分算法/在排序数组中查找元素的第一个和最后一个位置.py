@@ -7,6 +7,7 @@ def lower_bound(nums, target):
             right = mid -1
         else:
             left = mid + 1
+    # 此时left指向第一个位置
     return left
 def searchRange(nums, target):
     start = lower_bound(nums, target)
